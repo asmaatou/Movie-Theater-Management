@@ -11,7 +11,7 @@ import java.util.Date;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
-public class MovieRoom {
+public class MovieTheater {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @Column(length = 50,nullable = false)
