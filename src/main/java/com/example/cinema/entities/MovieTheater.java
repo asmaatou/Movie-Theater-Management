@@ -13,7 +13,7 @@ import java.util.Date;
 @Data @NoArgsConstructor @AllArgsConstructor
 public class MovieTheater {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Integer id;
     @Column(length = 50,nullable = false)
     private String name;
     @Column(length = 100,nullable = false)
