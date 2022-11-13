@@ -20,6 +20,7 @@ public class MovieTheater {
     private String address;
     @Temporal(TemporalType.DATE)
     private Date creationDate;
+    @Column(nullable = false)
     private int chairsNumber;
     @Enumerated(EnumType.STRING)
     private Status status;
